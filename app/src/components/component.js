@@ -11,7 +11,7 @@ export default (text = 'Hello world') => {
   element.className = 'fa fa-hand-spock-o fa-1g';
 
   element.onclick = () => {
-    import('./lazy').then((lazy) => {
+    import('../../lazy').then((lazy) => {
       element.textContent = lazy.default;
     }).catch((err) => {
       console.error(err);

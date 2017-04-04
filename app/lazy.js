@@ -1,3 +1,3 @@
-import './lazy.css';
+import './css/lazy.css';
 
 export default 'Hello from lazy';

@@ -67,7 +67,7 @@ const commonConfig = merge([
   parts.loadFonts({
     options: {
       //name: '[name].[ext]',
-      name: '[name].[hash:8].[ext]',
+      name: 'fonts/[name].[hash:8].[ext]',
     },
   }),
   parts.loadJavaScript({ include: PATHS.app }),
@@ -129,7 +129,7 @@ const productionConfig = merge([
     options: {
       limit: 15000,
       //name: '[name].[ext]',
-      name: '[name].[hash:8].[ext]',
+      name: 'img/[name].[hash:8].[ext]',
     },
   }),
   parts.setFreeVariable(
