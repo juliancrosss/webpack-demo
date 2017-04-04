@@ -1,0 +1,10 @@
+body {
+  background-color: #efefef;
+  background-image: url('./logo.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+}
+.redButton {
+  background: red;
+}
