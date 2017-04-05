@@ -41,6 +41,8 @@ const commonConfig = merge([
     plugins: [
       new HtmlWebpackPlugin({
         title: 'Webpack demo',
+        template: './public/index.html',
+        //filename: 'index.html',
       }),
       new webpack.LoaderOptionsPlugin({
         options: {

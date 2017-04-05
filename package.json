@@ -50,11 +50,15 @@
     "worker-loader": "^0.8.0"
   },
   "dependencies": {
+    "express": "^4.15.2",
     "font-awesome": "^4.7.0",
+    "morgan": "^1.8.1",
     "purecss": "^0.6.2",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
     "react-redux": "^5.0.3",
+    "react-route": "^1.0.3",
+    "react-router": "^4.0.0",
     "redux": "^3.6.0"
   }
 }
